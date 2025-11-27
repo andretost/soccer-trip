@@ -36,56 +36,62 @@ const tripData = {
     },
     {
       id: 3,
-      name: "Day 3",
-      date: "Friday, December 5",
+      name: "Day 3 - Friday",
+      date: "December 5",
       items: [
         { id: 1, time: "7am", title: "Leaving the hotel", description: "Kevin finds out there is no disgusting breakfast options, Nick runs 5 miles, Shawn finds that Dutch coffee is not that great and only has 4 cups." },
-        { id: 2, time: "10:38am", title: "Train to Oberhausen", description: "Since it is a German train, chances are it will be an hour late." },
+        { id: 2, time: "10:38am", title: "Train to Oberhausen", description: "ICE 123, leaving from platform 4 at Amsterdam Centraal. Since it is a German train, chances are it will be an hour late." },
         { id: 3, time: "12:31pm", title: "Arriving in Oberhausen", description: "Find Andre (aka \"The Driver\") outside the station." },
         { id: 4, time: "1:30pm", title: "Arrival at Claudia's house", description: "Prolonged driving time due to excessive number of bathroom stops." },
         { id: 5, time: "4:20pm", title: "Getting ready for the game", description: "Everyone goes to the bathroom one more time before leaving." },
         { id: 6, time: "4:40pm", title: "Still getting ready for the game", description: "Waiting for Nick to finish his bathroom visit..." },
-        { id: 7, time: "4:41pm", title: "Leaving for the stadium", description: "Taking a train from Dortmund to Essen, Stadion an der Hafenstrasse." },
+        { id: 7, time: "4:41pm", title: "Leaving for the stadium", description: "Taking a train from Dortmund to Essen, Stadion an der Hafenstrasse. Details tbd." },
         { id: 8, time: "7pm", title: "Game: Rot-Weiss Essen vs VfB Stuttgart II", description: "Don't forget to find out where the bathrooms in the stadium are." },
-        { id: 9, time: "9pm", title: "Returning to Claudia's house in Dortmund", description: "Make sure you go to the bathroom one more time before leaving." },
+        { id: 9, time: "9pm", title: "Returning to Claudia's house in Dortmund", description: "Details tbd. Make sure you go to the bathroom one more time before leaving." },
         { id: 10, time: "10pm", title: "Arriving at Claudia's house in Dortmund", description: "Everyone is back at the house and ready to sleep." },
         { id: 11, time: "12am", title: "Sleeping", description: "Everyone is sleeping. Big day tomorrow." },
       ]
     },
     {
       id: 4,
-      name: "Day 4",
-      date: "Saturday, December 6",
+      name: "Day 4 - Saturday",
+      date: "December 6",
       items: [
-        { id: 1, time: "8am", title: "Breakfast", description: "Kevin does not a disgusting breakfast, Nick runs five miles, Shawn has 6 cups of coffee. Andre enjoys a nice German breakfast." },
+        { id: 1, time: "8am", title: "Breakfast", description: "Kevin does not get a disgusting breakfast, Nick runs five miles, Shawn has 6 cups of coffee. Andre enjoys a nice German breakfast." },
         { id: 2, time: "8:30am", title: "Drive to Georgsmarienhütte/Osnabrück", description: "Make sure everyone goes to the bathroom one more time before leaving." },
         { id: 3, time: "10am", title: "Arrival at hotel 'Rittergut Osthoff'", description: "See if check-in at the hotel is available. At least drop off bags." },
-        { id: 4, time: "12pm", title: "Bus to Osnabrück", description: "Meet at bus stop 'Oesede Weghaus'." },
-        { id: 5, time: "12:25pm", title: "Arriving at Osnabrück Hauptbahnhof", description: "Note: no decent bathrooms at the station. Walk to stadium 'Bremer Brücke'. " }
+        { id: 4, time: "12:12pm", title: "Bus to Osnabrück", description: "Meet at bus stop 'Oesede Weghaus'." },
+        { id: 5, time: "12:27pm", title: "Arriving at Osnabrück Hauptbahnhof", description: "Note: no decent bathrooms at the station. Walk to stadium 'Bremer Brücke'. " },
+        { id: 6, time: "2pm", title: "Game: VfL Osnabrück vs SV Wehen Wiesbaden", description: "Note: standing only, in the 'monkey rock' section." },
+        { id: 7, time: "4pm", title: "Christmas Market", description: "Walking from stadium into the old town of Osnabrück. No idea about he bathroom situation there." },
+        { id: 8, time: "7pm", title: "Return to hotel in Georgsmarienhütte", description: "Details tbd." },
+        { id: 9, time: "7:30pm", title: "Optional: visit at 'Gildehaus'", description: "Aka the closest thing to a Glynners you can find in northern Germany." },
+        { id: 10, time: "10pm", title: "Sleeping", description: "Everyone is sleeping. Big day tomorrow." },
       ]
     },
     {
       id: 5,
-      name: "Day 5",
-      date: "Sunday, December 7",
+      name: "Day 5 - Sunday",
+      date: "December 7",
       items: [
-        { id: 1, time: "10:00", title: "Breakfast at Hotel", description: "Continental breakfast included" },
-        { id: 2, time: "11:00", title: "Sunday Activity", description: "Relaxing day activity" },
-        { id: 3, time: "13:00", title: "Lunch", description: "Group lunch" },
-        { id: 4, time: "15:00", title: "Free Time", description: "Last-minute shopping or sightseeing" },
-        { id: 5, time: "18:00", title: "Evening at Leisure", description: "Personal time" },
-        { id: 6, time: "20:00", title: "Farewell Dinner", description: "Final dinner together" }
+        { id: 1, time: "8am", title: "Breakfast", description: "Still no hope for Kevin, Nick skips his morning run, Shawn has even more coffee than usual. No one has a clue where Andre is." },
+        { id: 2, time: "11am", title: "Leave for the train station", description: "Going to Osnabrück Hauptbahnhof. Details tbd." },
+        { id: 3, time: "11:37am", title: "Train to Dortmund", description: "ICE 519, leaving from platform 2 at Osnabrück Hauptbahnhof." },
+        { id: 4, time: "12:32pm", title: "Arrive in Dortmund", description: "Find a way to get to Claudia's house. By now you should know the way." },
+        { id: 5, time: "4pm", title: "Leave for the stadium", description: "Walking across the cemetery to the stadium. Definitely make sure everyone goes to the bathroom one more time before leaving. Take a beer for the long walk." },
+        { id: 6, time: "5:30pm", title: "Game: Borussia Dortmund vs TSG Hoffenheim", description: "We got assigned seats for this one. Bring a yellow/black scarf." },
+        { id: 7, time: "7:30pm", title: "Return to Claudia's house in Dortmund", description: "Possible detour to the 'B-Trieb' for further post game analysis." },
+        { id: 8, time: "11pm", title: "Sleeping", description: "Everyone is sleeping. Big day tomorrow." },
       ]
     },
     {
       id: 6,
-      name: "Day 6",
-      date: "Monday, December 8",
+      name: "Day 6 - Monday",
+      date: "December 8",
       items: [
-        { id: 1, time: "07:00", title: "Hotel Check-out", description: "Settle bills and collect luggage" },
-        { id: 2, time: "08:00", title: "Transfer to Airport", description: "Bus departure from hotel" },
-        { id: 3, time: "10:30", title: "Flight Departure", description: "Check terminal and gate details" },
-        { id: 4, time: "14:00", title: "Arrival Home", description: "End of trip" }
+        { id: 1, time: "6:45am", title: "Claudia and Dirk leaving for work", description: "Yeah, some people still have to go to work..." },
+        { id: 2, time: "8am", title: "Silke and Andre leaving for Amsterdam", description: "atching a plane to Austin leaving at 1:05pm" },
+        { id: 3, time: "9am", title: "Do Whatever You Want", description: "Kevin, Nick and Shawn are doing something. Eating breakfast, running 5 miles, I don't give a flying fart." },
       ]
     }
   ]
