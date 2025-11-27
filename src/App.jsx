@@ -25,13 +25,13 @@ const tripData = {
       date: "December 4",
       items: [
         { id: 1, time: "9am", title: "Arriving in Amsterdam", description: "Plane lands, rain in Amsterdam." },
-        { id: 2, time: "11am", title: "Still in the airport", description: "Waiting in line for immigration, because no one in the group has a European passort." },
+        { id: 2, time: "11am", title: "Still in the airport", description: "Waiting in line for immigration, because no one in the group has a European passport." },
         { id: 3, time: "12pm", title: "Hotel", description: "Checking in at the 'Prince Charming' hotel."},
         { id: 4, time: "1pm", title: "Red Light District", description: "Everyone pretending they ended up there by accident and just wanted to go sightseeing." },
-        { id: 5, time: "2pm", title: "Amsterdam's Oldest Pub", description: "Enjoying a nice round of Heinekens and making friends wit a bunch of drunk people from Scotland." },
+        { id: 5, time: "2pm", title: "Amsterdam's Oldest Pub", description: "Enjoying a nice round of Heinekens and making friends with a bunch of drunk people from Scotland." },
         { id: 6, time: "5pm", title: "Still at the pub", description: "Nick and Shawn want to leave, Kevin orders another round and pretends it is by accident." },
         { id: 7, time: "8pm", title: "Red Light District", description: "Everyone pretending they ended up there by accident and were just on the way back to the hotel." },
-        { id: 8, time: "10pm", title: "'Sleep'", description: "Let's just pretend everyone is back at the hotel sleeping." },
+        { id: 8, time: "10pm", title: "'Sleep'", description: "Let's just pretend everyone is back at the hotel sleeping. Big day tomomorow." },
       ]
     },
     {
@@ -58,7 +58,7 @@ const tripData = {
       date: "December 6",
       items: [
         { id: 1, time: "8am", title: "Breakfast", description: "Kevin does not get a disgusting breakfast, Nick runs five miles, Shawn has 6 cups of coffee. Andre enjoys a nice German breakfast." },
-        { id: 2, time: "8:30am", title: "Drive to Georgsmarienhütte/Osnabrück", description: "Make sure everyone goes to the bathroom one more time before leaving." },
+        { id: 2, time: "8:30am", title: "Drive to Georgsmarienhütte/Osnabrück", description: "Make sure everyone goes to the bathroom one more time before leaving. Still need to make a number of stops along the way." },
         { id: 3, time: "10am", title: "Arrival at hotel 'Rittergut Osthoff'", description: "See if check-in at the hotel is available. At least drop off bags." },
         { id: 4, time: "12:12pm", title: "Bus to Osnabrück", description: "Meet at bus stop 'Oesede Weghaus'." },
         { id: 5, time: "12:27pm", title: "Arriving at Osnabrück Hauptbahnhof", description: "Note: no decent bathrooms at the station. Walk to stadium 'Bremer Brücke'. " },
@@ -78,7 +78,7 @@ const tripData = {
         { id: 2, time: "11am", title: "Leave for the train station", description: "Going to Osnabrück Hauptbahnhof. Details tbd." },
         { id: 3, time: "11:37am", title: "Train to Dortmund", description: "ICE 519, leaving from platform 2 at Osnabrück Hauptbahnhof." },
         { id: 4, time: "12:32pm", title: "Arrive in Dortmund", description: "Find a way to get to Claudia's house. By now you should know the way." },
-        { id: 5, time: "4pm", title: "Leave for the stadium", description: "Walking across the cemetery to the stadium. Definitely make sure everyone goes to the bathroom one more time before leaving. Take a beer for the long walk." },
+        { id: 5, time: "4pm", title: "Leave for the stadium", description: "Walking across the cemetery to the stadium. Definitely make sure everyone goes to the bathroom one more time before leaving. Bring a beer for the long walk." },
         { id: 6, time: "5:30pm", title: "Game: Borussia Dortmund vs TSG Hoffenheim", description: "We got assigned seats for this one. Bring a yellow/black scarf." },
         { id: 7, time: "7:30pm", title: "Return to Claudia's house in Dortmund", description: "Possible detour to the 'B-Trieb' for further post game analysis." },
         { id: 8, time: "11pm", title: "Sleeping", description: "Everyone is sleeping. Big day tomorrow." },
@@ -90,7 +90,7 @@ const tripData = {
       date: "December 8",
       items: [
         { id: 1, time: "6:45am", title: "Claudia and Dirk leaving for work", description: "Yeah, some people still have to go to work..." },
-        { id: 2, time: "8am", title: "Silke and Andre leaving for Amsterdam", description: "atching a plane to Austin leaving at 1:05pm" },
+        { id: 2, time: "8am", title: "Silke and Andre leaving for Amsterdam", description: "Catching a plane to Austin leaving at 1:05pm" },
         { id: 3, time: "9am", title: "Do Whatever You Want", description: "Kevin, Nick and Shawn are doing something. Eating breakfast, running 5 miles, I don't give a flying fart." },
       ]
     }
