@@ -1,9 +1,10 @@
-function AgendaList({ day }) {
+function AgendaList({ day, sharedNote }) {
   return (
     <main className="agenda-container">
       <div className="agenda-header">
         <h2>{day.name}</h2>
         <p className="day-date-main">{day.date}</p>
+        {sharedNote && <p className="shared-note">{sharedNote}</p>}
       </div>
       <div className="agenda-items">
         {day.items.map((item) => (

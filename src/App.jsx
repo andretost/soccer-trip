@@ -7,6 +7,7 @@ import AgendaList from './components/AgendaList'
 // Sample trip data
 const tripData = {
   title: "Soccer Trip to Germany - November 2025",
+  sharedNote: "Note that all travel is in the lowest possible class! No first class travel ever, so if you end up in a train or tram or bus and it says First Class, you are in the wrong place!",
   days: [
     {
       id: 1,
@@ -47,9 +48,10 @@ const tripData = {
         { id: 6, time: "4:40pm", title: "Still getting ready for the game", description: "Waiting for Nick to finish his bathroom visit..." },
         { id: 7, time: "4:41pm", title: "Leaving for the stadium", description: "Taking a train from Dortmund to Essen, Stadion an der Hafenstrasse. Details tbd." },
         { id: 8, time: "7pm", title: "Game: Rot-Weiss Essen vs VfB Stuttgart II", description: "Don't forget to find out where the bathrooms in the stadium are." },
-        { id: 9, time: "9pm", title: "Returning to Claudia's house in Dortmund", description: "Details tbd. Make sure you go to the bathroom one more time before leaving." },
-        { id: 10, time: "10pm", title: "Arriving at Claudia's house in Dortmund", description: "Everyone is back at the house and ready to sleep." },
-        { id: 11, time: "12am", title: "Sleeping", description: "Everyone is sleeping. Big day tomorrow." },
+        { id: 9, time: "9pm", title: "Returning to Claudia's house in Dortmund", description: "Use shuttle to Essen main train station. Make sure you go to the bathroom one more time before leaving." },
+        { id: 10, time: "10:04pm", title: "Train to Dortmund", description: "ICE 528, leaving from platform 4 at Essen main train station." },
+        { id: 11, time: "10:27pm", title: "From Dortmund Central station to Claudia's house in Dortmund", description: "Taxi to Claudia's house." },
+        { id: 12, time: "12am", title: "Sleeping", description: "Everyone is sleeping. Big day tomorrow." },
       ]
     },
     {
@@ -75,7 +77,7 @@ const tripData = {
       date: "December 7",
       items: [
         { id: 1, time: "8am", title: "Breakfast", description: "Still no hope for Kevin, Nick skips his morning run, Shawn has even more coffee than usual. No one has a clue where Andre is." },
-        { id: 2, time: "11am", title: "Leave for the train station", description: "Going to Osnabrück Hauptbahnhof. Details tbd." },
+        { id: 2, time: "10:45am", title: "Leave for the train station", description: "Going to Osnabrück Hauptbahnhof. Silkes mom to pick up from the hotel and drive to train station." },
         { id: 3, time: "11:37am", title: "Train to Dortmund", description: "ICE 519, leaving from platform 2 at Osnabrück Hauptbahnhof." },
         { id: 4, time: "12:32pm", title: "Arrive in Dortmund", description: "Find a way to get to Claudia's house. By now you should know the way." },
         { id: 5, time: "4pm", title: "Leave for the stadium", description: "Walking across the cemetery to the stadium. Definitely make sure everyone goes to the bathroom one more time before leaving. Bring a beer for the long walk." },
@@ -111,6 +113,7 @@ function App() {
         />
         <AgendaList 
           day={selectedDay}
+          sharedNote={tripData.sharedNote}
         />
       </div>
     </div>

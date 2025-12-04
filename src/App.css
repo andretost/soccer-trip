@@ -175,6 +175,18 @@
   font-weight: 500;
 }
 
+.shared-note {
+  margin: 1.5rem 0 0 0;
+  padding: 1rem 1.5rem;
+  background: rgba(82, 183, 136, 0.1);
+  border-left: 4px solid #52b788;
+  border-radius: 8px;
+  color: #dc2626;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  font-weight: 700;
+}
+
 /* Agenda Items */
 .agenda-items {
   max-width: 900px;
