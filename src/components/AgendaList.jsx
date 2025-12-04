@@ -1,10 +1,22 @@
-function AgendaList({ day, sharedNote }) {
+function AgendaList({ day, sharedNote, importantLink }) {
   return (
     <main className="agenda-container">
       <div className="agenda-header">
         <h2>{day.name}</h2>
         <p className="day-date-main">{day.date}</p>
         {sharedNote && <p className="shared-note">{sharedNote}</p>}
+        {importantLink && (
+          <a 
+            href={importantLink.url} 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            className="important-link-box"
+          >
+            <span className="link-icon">🔗</span>
+            <span className="link-text">{importantLink.text}</span>
+            <span className="link-arrow">→</span>
+          </a>
+        )}
       </div>
       <div className="agenda-items">
         {day.items.map((item) => (

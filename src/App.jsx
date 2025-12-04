@@ -8,6 +8,10 @@ import AgendaList from './components/AgendaList'
 const tripData = {
   title: "Soccer Trip to Germany - November 2025",
   sharedNote: "Note that all travel is in the lowest possible class! No first class travel ever, so if you end up in a train or tram or bus and it says First Class, you are in the wrong place!",
+  importantLink: {
+    text: "Click here to win an amazing price!!!",
+    url: "http://tost.world/"
+  },
   days: [
     {
       id: 1,
@@ -114,6 +118,7 @@ function App() {
         <AgendaList 
           day={selectedDay}
           sharedNote={tripData.sharedNote}
+          importantLink={tripData.importantLink}
         />
       </div>
     </div>
