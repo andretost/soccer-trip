@@ -9,7 +9,7 @@ const tripData = {
   title: "Soccer Trip to Germany - November 2025",
   sharedNote: "Note that all travel is in the lowest possible class! No first class travel ever, so if you end up in a train or tram or bus and it says First Class, you are in the wrong place!",
   importantLink: {
-    text: "Click here to win an amazing price!!!",
+    text: "Click here to win an amazing prize!!!",
     url: "http://tost.world/"
   },
   days: [
